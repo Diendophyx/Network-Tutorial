@@ -135,7 +135,6 @@ namespace Minesweeper
                     if (tile.isMine)
                     {
                         int adjacentMines = GetAdjacentMineCount(tile);
-                        tile.Reveal(adjacentMines, mineState);
                     }
                 }
         }

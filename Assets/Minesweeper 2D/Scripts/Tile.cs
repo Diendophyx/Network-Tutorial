@@ -12,7 +12,10 @@ namespace Minesweeper
         [Header("References")]
         public Sprite[] emptySprites;
         public Sprite[] mineSprites;
+        public GameObject minePrefab;
+
         private SpriteRenderer rend;
+
 
         private void Awake()
         {
